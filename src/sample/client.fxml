@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane fx:controller="sample.ClientController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="218.0" prefWidth="328.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="clientLog" layoutX="7.0" layoutY="82.0" prefHeight="132.0" prefWidth="316.0" />
+      <TextField fx:id="senderTextField" layoutX="71.0" layoutY="14.0" />
+      <TextField fx:id="messageTextField" layoutX="61.0" layoutY="47.0" prefHeight="25.0" prefWidth="257.0" />
+      <Label layoutX="21.0" layoutY="18.0" text="Sender:" />
+      <Label layoutX="28.0" layoutY="51.0" text="Text:" />
+   </children>
+</Pane>
